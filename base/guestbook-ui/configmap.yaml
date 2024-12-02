@@ -1,6 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: guestbook-cm
-data:
-  API_URL: "http://google.fr/"
