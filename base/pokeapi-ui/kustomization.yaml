@@ -6,3 +6,8 @@ resources:
   - deployment.yaml
   - svc.yaml
   - configmap.yaml
+  -
+patches:
+    - path: minimum-replicas.yaml
+      target:
+        kind: Deployment
